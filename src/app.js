@@ -46,7 +46,7 @@ app.use(session({
 }));
 
 // redirect to https except localhost
-app.use(redirectToHTTPS([/3.110.191.34:(\d{4})/]));
+app.use(redirectToHTTPS([/35.154.156.3:(\d{4})/]));
 
 // construct res.locals from session to pass to other middlewares
 // check authentication
